@@ -3,6 +3,7 @@ import inquirer from 'inquirer'
 // use input for guessing no
 // compare user input with rando no
 
+console.log("well com to guessing game")
 const random_number = Math.floor(Math.random()*6+1)
 const answar = await inquirer.prompt([
 
